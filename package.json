@@ -4,7 +4,10 @@
   "description": "",
   "main": "playground.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,10 @@
     "jest": "^24.8.0",
     "nodemon": "^1.19.1",
     "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
   }
 }
