@@ -1,0 +1,27 @@
+{
+  "name": "mongo-playground-weds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MustardJoe/mongo-playground-weds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MustardJoe/mongo-playground-weds/issues"
+  },
+  "homepage": "https://github.com/MustardJoe/mongo-playground-weds#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "exlint": "^0.1.6",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
